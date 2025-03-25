@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/background.png'); /* Sesuaikan dengan lokasi gambar */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    color: black;
+}
+
+.container h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.container h2 {
+    font-size: 1.5em;
+    margin-top: -10px;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.login-box h3 {
+    color: yellow;
+    font-size: 1.3em;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 20px;
+    color: yellow;
+    font-size: 1em;
+}
+
+.footer img {
+    width: 100px;
+    margin-top: 10px;
+}
