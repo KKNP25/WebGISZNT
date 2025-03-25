@@ -74,7 +74,7 @@
     <img class="logo" src="Image/kisspng-nobita-nobi-doraemon-illustration-sleep-image-png-2-14-5bf34f544bd379.7589474415426722123106.png" alt="Logo"> <!-- Tambahkan src dan alt -->
     <h1>Login Gagal!</h1>
     <p>Username atau password yang Anda masukkan salah.</p>
-    <a href="Webgis ZNT.html" class="button">Coba Lagi</a>
+    <a href="index.html" class="button">Coba Lagi</a>
 </div>
 
 </body>
