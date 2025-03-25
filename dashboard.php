@@ -20,6 +20,6 @@ if (isset($_SESSION['last_activity']) && (time() - $_SESSION['last_activity']) >
 $_SESSION['last_activity'] = time();
 
 // Redirect ke WebGIS
-header("Location: webgis/map.html");
+header("Location: map.html");
 exit();
 ?>
